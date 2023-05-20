@@ -1,17 +1,17 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
+martin:
+  name: Martín Smith
+  title: Flutter Developer
+  url: https://themonkslab.com
+  image_url: https://github.com/mal2tin.png
 
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+mauro:
+  name: Mauro Di Bert
+  title: Flutter Developer
+  url: https://themonkslab.com
+  image_url: https://github.com/maurodibert.png
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+eugenio:
+  name: Eugenio Tesio
+  title: Flutter Developer
+  url: https://themonkslab.com
+  image_url: https://github.com/EugenioTesio.png
