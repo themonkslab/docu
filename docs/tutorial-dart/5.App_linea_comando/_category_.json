@@ -1,0 +1,8 @@
+{
+  "label": "App de línea de comando",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Instalaciones necesarias y primer app de linea de comando"
+  }
+}
