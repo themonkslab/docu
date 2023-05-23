@@ -641,6 +641,9 @@ _matcher_ o 🤪 en nuestro código? Resulta que hay _matchers_ ya creados para 
 - _isTrue_, _isFalse_: Determina si el valor actual es verdadero o falso.
 - _isNull_: Determina si el valor actual es nulo.
 - _isNotNull_: Determina si el valor actual no es nulo.
+- _isInstanceOf_\<T\>: Determina si el valor actual es una instancia del tipo T.
+- _isA_\<T\>: Alias para isInstanceOf\<T\>.git
+- _throwsA_\<Exception\>: Determina si la función proporcionada lanza una excepción del tipo especificado.
 - _throwsA_(predicate): Determina si la función proporcionada lanza una
   excepción que satisface el predicado proporcionado (más sobre esto en el futuro).
 - _closeTo_: Determina si un número de coma flotante está cerca de un valor dado dentro de una cierta tolerancia.
