@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # Componentes de un proyecto
 
 Vamos a basarnos en nuestro flamante `first_dart_project` para poder entender de qué está hecho un proyecto:

@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+---
+
 # Paquetes en detalle
 
 Ya tuvimos un breve pantallazo sobre los componentes principales de un proy... paquete! 🤣 Vamos ahora a adentrarnos un poquito más en los _packages_!
@@ -80,7 +84,7 @@ dev_dependencies:
 
 Y ya que vamos en orden, podemos explicar un poquito más del final de dicho archivo...
 
-## _Dependencies_
+## Dependencies
 
 Vamos a tener varios tipos de ellas:
 
@@ -89,7 +93,7 @@ Vamos a tener varios tipos de ellas:
 - _Regular dependencies_: son las utilizadas durante desarrollo y producción.
 - _Dev dependencies_: son las utilizadas solamente durante el desarrollo. Por ejemplo la librería de testing.
 
-Y ya dijomos que podemos utilizar los paquetes alojados en [Pub.dev](https://pub.dev/packages) sin embargo, podemos utilizar otras fuentes también como por ejemplo, si necesitan un paquete que se encuentra en un estado de prueba más avanzado que el publicado estable, pueden depender de un paquete de Git. Git? Ja! Es un buen momento para que sumen a sus horas de estudio y práctica, el [siguiente curso](), ya que Git les va a permitir un millón de cosas y es indispensable para el trabajo profesional en programación.
+Y ya dijomos que podemos utilizar los paquetes alojados en [Pub.dev](https://pub.dev/packages) sin embargo, podemos utilizar otras fuentes también como por ejemplo, si necesitan un paquete que se encuentra en un estado de prueba más avanzado que el publicado estable, pueden depender de un paquete de Git. Git? Ja! Es un buen momento para que sumen a sus horas de estudio y práctica, el [siguiente curso](https://pub.dev/), ya que Git les va a permitir un millón de cosas y es indispensable para el trabajo profesional en programación.
 
 Podrían entonces utilizar un paquete de Git de la siguiente manera:
 
@@ -138,7 +142,7 @@ Y dónde se supone que esos paquetes son almacenados una vez que los descargamos
 
 ![Cache package path](6.2_cache_package_path.png)
 
-## _Semantic Versioning_
+## Semantic Versioning
 
 Supongamos que creamos un paquete que depende de una librería llamada
 `super_library` para hacer llamados a un servidor que nos traiga información
@@ -157,7 +161,7 @@ Esta convención, lo hace a través de tres simples numeritos: 1.2.3
 2. _MINOR_ o cambio menor: se agrega una funcionalidad pero es compatible con las anteriores. Osea que no va a cambiar por ejemplo el nombre del método que llamabas sino que se le va a agregar otra función.
 3. _PATCH_ o parche: se soluciona un _bug_ o error pero todo sigue siendo compatible. Por ejemplo ese método que usábamos y generaba un error en digamos, una plataforma específica, ya no lo genera más.
 
-Para más info, refiéranse a [este artículo]() que escribimos con muchos ejemplos y ejercios. También es útil que sepan que cuando utilicen GIT, los archivos encargados de controlar las versiones (en Dart el `pubspec.yaml`) tienen que ser incluidos en el control de versiones para que todos los miembros de un equipo utilicen las mismas versiones!
+Para más info, refiéranse a [este artículo](https://pub.dev/) que escribimos con muchos ejemplos y ejercios. También es útil que sepan que cuando utilicen GIT, los archivos encargados de controlar las versiones (en Dart el `pubspec.yaml`) tienen que ser incluidos en el control de versiones para que todos los miembros de un equipo utilicen las mismas versiones!
 
 Están listos para ser desafiados!
 
@@ -191,6 +195,6 @@ packages
          calculator.dart
 ```
 
-__💀 Solución__: [aquí]()
+__💀 Solución__: [aquí](https://pub.dev/s)
 
 Y para cerrar... vieron que VSCode nos marca un error pero de todas formas podemos ejecutar nuestro programa? Es porque nos quedaron los tests evaluando la función anterior, mal sus `imports` y alguito más. Sería un buen momento para empezar con tests no? 😃

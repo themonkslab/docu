@@ -1,3 +1,7 @@
+---
+sidebar_position: 7
+---
+
 # Dart DevTools
 
 Ya hemos explicado el por qué es tan importante incorporar los tests como una
@@ -58,7 +62,7 @@ __Requirements__:
 - En el archivo `/lib/first_package_enhanced.dart`, van a crear funciones que les permitan imprimir el resultado mientras reciben los números. Recuerden que cada función tiene que cumplir con un propósito por lo que tendrán que separarlas según las 4 funciones de nuestra calculadora.
 - Tal como en el ejemplo, tienen que darle la posibilidad de salir de la calculadora oprimiendo la letra 'q'
 
-## __Solution__ + Debuggear desde las DevTools
+## Solution + Debuggear desde las DevTools
 
 Recuerdan que les dije iba a llegar el momento de aprenderlo? Llegó! Justo en el
 medio del ejercicio que están por hacer! Y seguramente hasta ahora no hayamos
@@ -152,7 +156,7 @@ Que el código...
 Suelo utilizarlo en _Stop on uncaught exceptions_ ya que se estaría deteniéndose
 en _exceptions_ que no tengamos controladas per es algo ya veremos pronto!
 
-### Seteando _breakpoints_
+### Seteando breakpoints
 
 Si se paran encima de los pequeños puntitos a la izquierda de cada línea, van a poder hacer click y determinar allí sus _breakpoints_; ya no se ponen rojos como en VSCode sino que agrandan un poco su tamaño:
 

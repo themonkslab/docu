@@ -1,4 +1,8 @@
-# Paquetes, grupos y _late_ en tests
+---
+sidebar_position: 10
+---
+
+# Paquetes, grupos y late en tests
 
 Desde la siguiente sección, vamos a tratar en la mayoría de los casos, de partir
 desde el diseño de nuestros tests, para luego implementar el código que los
@@ -8,7 +12,7 @@ Como vamos a empezar con cuestiones avanzadas sobre _Classes_, vamos a ver
 dentro de esta sección, un par de conceptos más que nos serán de extrema
 utilidad, antes de adentrarnos de lleno en contenido más avanzado.
 
-## Creando un paquete y jugando con _groups_
+## Creando un paquete y jugando con groups
 
 Supongamos que queremos representar a distintos tipos de animales. Podemos decir
 que todos los animales necesitan dormir, comer y reproducirse pero no todos por
@@ -351,7 +355,7 @@ void main() {
 
 Listo, aunque se nos presenta algo que jamás habíamos visto!
 
-## _Late_
+## Late
 
 _The non-nullable local variable 'animal' must be assigned before it can be used.
 Try giving it an initializer expression, or ensure that it's assigned on every

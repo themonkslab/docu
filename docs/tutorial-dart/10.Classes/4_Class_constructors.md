@@ -1,4 +1,8 @@
-# _Class constructors_
+---
+sidebar_position: 4
+---
+
+# Class constructors
 
 Ya tenemos algo más parecido a una cuenta con un negocio de barrio más cercana a lo real. Sin embargo, sería correcto poder abrir una cuenta con un balance específico, por ejemplo empezando con $1000 y dejar eso a crédito para futuras compras. Cómo haríamos esto? Utilizando constructores de clase.
 
@@ -45,7 +49,7 @@ void main() {
 
 Por qué el balance resulta en `-300`? Porque cuando creamos el constructor, decimos que `balance` es igual a `balance`. Cómo diferenciamos entre el que recibimos y la _member variable_ o _property_ de nuestra clase? Utilizamos la palabra _this_.
 
-## _This_
+## This
 
 Significa 'esto' y sirve para referirse a la instancia que se está creando y solamente la utilizamos cuando tenemos un conflicto de _naming_; de otra manera, Dart omite el _this_.
 
@@ -88,7 +92,7 @@ void main() {
 
 Ahora podemos ver que nuestro resultado cuando pedimos por el balance, es de `700`. Perfecto! Ahora, ustedes saben que tratamos todo el tiempo de buscar mejores formas de hacer las cosas. Existe una forma más simple? Sí! Con una lista de inicialización o...
 
-## _Initializer list_
+## Initializer list
 
 Podríamos omitir la función de creación si lo que queremos hacer es inicializar _member variables_. Solamente tenemos que, luego del cierre de `()` en donde pedimos el argumento `balance`, agregar `:` y luego del lado izquierdo, las _member variables_ que queremos inicializar y del derecho el valor que queremos ponerle dentro. Veámoslo que va a ser más claro:
 
@@ -264,7 +268,7 @@ void main() {
 
 _Whaaaat_? Exacto! Estaríamos modelando nuestra cuenta de manera totalmente incorrecta si en cualquier momento, podemos cambiar su titular! 😆 Cómo hacemos para que haya _properties_ dentro de nuestra clase que no puedan mutar y que otros sí?
 
-## _Mutable and Immutable members_
+## Mutable and Immutable members
 
 En este caso, queremos que el balance sea algo que pueda cambiar a lo largo de nuestra historia con el comercio en cuestión pero no así el nombre del dueño de la cuenta. Cómo hacemos esto? Simple, agregando `final` a la declaración de nuestra variable. 💀 Prueben y fijen qué sucede cuando intentamos cambiar el `accountHolder`:
 
@@ -406,7 +410,7 @@ Qué pasaría si ustedes intentaran ingresar `13.3` como valor del _member varia
 
 __Prioricen el crear una clase siempre__, por más de que lleve un poco de tiempo pensar cómo representar aquello que queremos de la forma más correcta.
 
-## _Const constructors_
+## Const constructors
 
 Ya hemos visto a través de distintos ejemplos, que __hay valores que no van a cambiar a lo largo de toda una aplicación__ y que si los establecemos como valores constantes mediante la utilización de __`const`__, no solo vamos a estar __evitando que ese valor sea cambiando sin darnos cuenta__ y eso provoque errores en nuestra aplicación, sino que también va a permitirle a Dart __optimizar la performance__ de nuestro desarrollo. __Lo mismo sucede con las clases.__
 
@@ -477,7 +481,7 @@ void main() {
 
 Esta es también una buena práctica para que piensen a la hora de crear cualquier clase: tengo elementos que no van a mutar y se mantendrán constantes a lo largo de toda mi aplicación en esta clase? Creen un constructor constante en dicho caso!
 
-## _Named constructors_
+## Named constructors
 
 En el ejemplo del teatro, creamos un __constructor que debería ser útil para las reglas en una gran parte de casos__ y por eso es un constructor por defecto o _default constructor_ pero qué sucede en los casos en donde mi teatro de ópera se utiliza para un recorrido turístico? O cuando se abre por la noche como un museo con disfraces? Son casos muy particulares en donde posiblemente las reglas cambien! En ese caso me gustaría poder crearlo específicamente con reglas constante pero diferentes! Cómo podríamos hacerlo? Utilizando constructores con nombre!
 

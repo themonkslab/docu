@@ -1,3 +1,6 @@
+---
+sidebar_position: 8
+---
 
 # Dart tests, introducción
 
@@ -36,7 +39,7 @@ Por ello, de ahora en más, todo lo que hagamos y hagan, incluirá tests! 🥳 x
 Vamos a encontrar diferentes tipos de tests en Dart! Empecemos con los que más
 vamos a estar escribiendo!
 
-## _Unit tests_ o tests unitarios
+## Unit tests o tests unitarios
 
 Un test unitario básicamente __inicializa una pequeña parte de nuestro programa
 y testea su comportamiento__. Recuerdan que varias veces les mencioné que cada

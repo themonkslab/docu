@@ -1,10 +1,14 @@
+---
+sidebar_position: 4
+---
+
 # Debuggear un proyecto
 
 _Debug_ significa depurar y al correr nuestro programa en modo de depuración, podemos __ir ejecutando nuestro programa paso a paso__, ver qué valor ocupa cada variable, cuál es el recorrido que va haciendo y varias cosas más. De esta manera podemos cerciorarnos de que todo se ejecuta de la forma esperada por nosotros y si no lo hace, nos sirve para encontrar su por qué.
 
 Pero antes de hablar específicamente de cómo hacerlo, es importante entender cómo un programa corre.
 
-## Control y _Call Stack_
+## Control y Call Stack
 
 Sin importar el lenguaje de programación, el __control de un programa marcha de arriba hacia abajo, yendo lo más abajo que pueda__; cuando dicho control llegó abajo de todo, cuando terminó de leer todos los _statements_, ha terminado. No obstante, el programa puede volver hacia arriba utilizando _loops_ y funciones pero naturalmente su direccionalidad es descendente.
 

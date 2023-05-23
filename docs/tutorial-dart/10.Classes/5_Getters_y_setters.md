@@ -1,4 +1,8 @@
-# _Getters_ y _Setters_
+---
+sidebar_position: 5
+---
+
+# Getters y Setters
 
 Imaginemos que estamos haciendo un pequeño programita que nos permita medir una distancia dada tanto en kilómetros como en millas. Podríamos almacenar la distancia en kilómetros ya que es a lo que estamos más acostumbrados pero tener la posibilidad de ingresar también millas, siendo nuestra clase quien las convierta automáticamente a kilómetros:
 

@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Dart y VSCode nivel medio
 
 Ya han pasado por una gran cantidad de horas de lectura, ejercitación y aprendizaje. Han aprendido profundamente las primeras bases del lenguaje y ya pueden ir notando que Dartpad les está quedando chico.

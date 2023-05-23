@@ -1,4 +1,8 @@
-# Introducción a _Classes_
+---
+sidebar_position: 2
+---
+
+# Introducción a Classes
 
 En Dart, las _Classes_ son formas de crear tipos o _types_ nuevos. Hasta ahora estuvimos manejándonos con los _built-in types_, que son los propios del lenguaje: `String`, `int`, `double`, etc. No obstante dijimos que __en el paradigma de _OOP_ buscamos representar el mundo y sus problemas a través de objetos y para ello, los tipos básicos del lenguaje, no nos van a servir.__
 

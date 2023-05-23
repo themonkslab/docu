@@ -1,4 +1,8 @@
-# _Test driven development_
+---
+sidebar_position: 9
+---
+
+# Test driven development
 
 El desarrollo guiado por pruebas o más comúnmente llamado por sus siglas en
 inglés _TDD_, se refiere a crear primero el test (generalmente unitario), para
@@ -306,7 +310,7 @@ La convención "_Given_ (Dado), _When_ (Cuando) _Then_ (Entonces)" es un enfoque
 ampliamente utilizado para escribir casos de prueba en pruebas unitarias. Nos
 da una forma estructurada de organizar y escribir casos de prueba que es
 realmente muy fácil de entender y seguir. Y lo más importante, es que es una
-[convención](), lo que significa que no solamente lo vamos a utilizar nosotros
+[convención](https://pub.dev/), lo que significa que no solamente lo vamos a utilizar nosotros
 sino que el resto de la industria también lo usa, por lo que si van a trabajar a
 una empresa de primer nivel, ya van a conocer la forma en la que escriben sus tests! 🥳
 
@@ -632,13 +636,11 @@ infinito:
 Hasta ahí tenemos el _actual_ o la primera parte del `expect`. Cuál sería el
 _matcher_ o 🤪 en nuestro código? Resulta que hay _matchers_ ya creados para nosotros:
 
+"
 - _equals_: Determina si dos objetos son iguales usando operator ==.
 - _isTrue_, _isFalse_: Determina si el valor actual es verdadero o falso.
 - _isNull_: Determina si el valor actual es nulo.
 - _isNotNull_: Determina si el valor actual no es nulo.
-- _isInstanceOf_\<T>: Determina si el valor actual es una instancia del tipo T.
-- _isA_\<T>: Alias para isInstanceOf\<T>.
-- _throwsA_\<Exception>: Determina si la función proporcionada lanza una excepción del tipo especificado.
 - _throwsA_(predicate): Determina si la función proporcionada lanza una
   excepción que satisface el predicado proporcionado (más sobre esto en el futuro).
 - _closeTo_: Determina si un número de coma flotante está cerca de un valor dado dentro de una cierta tolerancia.

@@ -1,4 +1,8 @@
-# _Instance methods_
+---
+sidebar_position: 3
+---
+
+# Instance methods
 
 En el ejemplo anterior, habíamos empezado a modelar la cuenta de un comercio de nuestro barrio, una verdulería. Le habíamos creado una _property_ llamada `balance` pero luego poníamos dinero como queríamos! 😂
 

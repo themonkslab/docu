@@ -1,4 +1,8 @@
-# Más sobre _variables_ y _methods_
+---
+sidebar_position: 6
+---
+
+# Más sobre variables y methods
 
 Hasta ahora, cuando queríamos acceder a una variable de una clase, teníamos que hacer una instancia de ella y acceder dentro de dicha instancia de la siguiente manera:
 
@@ -16,7 +20,7 @@ void main() {
 
 Pero saben existen otro tipo de variables donde no es necesario instanciar la clase...
 
-## _Static variables_
+## Static variables
 
 Son variables que pertenecen a la clase en sí y no a sus instancias. Nosotros solemos utilizarlas para crear valores constantes en un proyecto y así organizarlo. Por ejemplo:
 
@@ -114,7 +118,7 @@ void main() {
 }
 ```
 
-## _Private variables_ y _methods_
+## Private variables y methods
 
 Veamos el ejemplo en el que tratábamos de representar una cuenta con un negocio de nuestro barrio:
 
@@ -205,7 +209,7 @@ Pero aun podemos hacerlo! 😬 Sucede que __las declaraciones privadas están al
 
 Empecemos creando los dos archivos en nuestro directorio que llamaremos `main.dart` y `greens_account.dart` y pegamos nuestro `main` en el primero y el contenido de la clase en el segundo. Podemos ver un error en nuestro `main.dart` que se expande si nos paramos sobre el mismo:
 
-![Import missing](6.1_import_missing.png)
+![Import missing](6.3_import_missing.png)
 
 Simplemente tenemos que pararnos encima y apretar `cmd` + `.` (Mac) o `ctrl` + `.` (Windows) e importar nuestro archivo. Una vez importado van a ver otro error diciendo que la variable `_balance` no está definida y esto es porque se encuentra oculta para otros archivos que no sean el de nuestra `GreensAccount`. Pero para algo creamos el método `payFor` solo que ahora no depositaremos millones sino lo que necesitemos pagar y tengamos! 🤣
 

@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Crear y correr un proyecto
 
 Hasta el momento, nos manejamos casi todo el tiempo con Dartpad salvo en reducidas circunstancias. Ha llegado el tiempo de pegar el salto: vamos a trabajar casi absolutamente con VSCode de ahora en adelante dejando Dartpad para pequeños experimentos.
@@ -32,7 +36,7 @@ A su vez, si observan dicha función, pueden ver que llama a otra utilizando un 
 
 Además hay otra función `calculate` que se encuentra dentro de un archivo otra vez con el mismo nombre que el del proyecto pero en la carpeta `lib`.
 
-![Main function](./3.2_main_function.png)
+![Main function](3.2_main_function.png)
 
 Ahora que ya tenemos un idea mínima de dónde están nuestras funciones principales, les puedo decir que podemos correr nuestro programa desde dos lugares. Empecemos por la terminal.
 
@@ -60,7 +64,7 @@ Simplemente vamos a recorrer los argumentos recibidos desde la línea de comando
 
 💀 Tratemos entonces de correr `dart run 1 2 3`. 😯 Nos dice _Could not find package `1` or file `1`_. Dice que no puede encontrar el paquete `1` o el archivo `1` y esto es porque luego de `run`, Dart está esperando primero argumentos para el comando `run` y luego el nombre de un archivo que puede recibir sus propios argumentos. Esto lo pueden ver si corren `dart run -h` para pedir la ayuda:
 
-![Dart run help](./3.3_run_help.png)
+![Dart run help](3.3_run_help.png)
 
 Y cómo haríamos entonces, según dicha ayuda, para introducir argumentos? 💀 Tómense un tiempito para probar!
 
@@ -70,7 +74,7 @@ Probaron? Tienen que ingresar el _path_ del archivo y recién luego, los argumen
 
 Si se fijan en los menús de VSCode, van a encontrar uno de ellos bajo la palabra _Run_. Si se posan sobre él, van a encontrar una opción que dice _Run Without Debuggin_ y a su derecha la combinación de teclas que pueden utilizar para hacer más rápido; es muy buena idea ir memorizando estas combinaciones. Dicha opción es la que se encarga de correr nuestro código:
 
-![Menú Run](./3.4_run_menu.png)
+![Menú Run](3.4_run_menu.png)
 
 Nuevamente, vieron que lo corre perfecto siempre que estemos dentro del mismo archivo. Pero qué sucede si intentamos correr dicho programa desde otro lugar? VSCode nos creará un archivo llamado `launch.json`, dentro de una carpeta `.vscode`. Vamos por partes:
 
