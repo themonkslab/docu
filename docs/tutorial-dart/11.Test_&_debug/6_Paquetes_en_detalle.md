@@ -93,7 +93,7 @@ Vamos a tener varios tipos de ellas:
 - _Regular dependencies_: son las utilizadas durante desarrollo y producción.
 - _Dev dependencies_: son las utilizadas solamente durante el desarrollo. Por ejemplo la librería de testing.
 
-Y ya dijomos que podemos utilizar los paquetes alojados en [Pub.dev](https://pub.dev/packages) sin embargo, podemos utilizar otras fuentes también como por ejemplo, si necesitan un paquete que se encuentra en un estado de prueba más avanzado que el publicado estable, pueden depender de un paquete de Git. Git? Ja! Es un buen momento para que sumen a sus horas de estudio y práctica, el [siguiente curso](https://pub.dev/), ya que Git les va a permitir un millón de cosas y es indispensable para el trabajo profesional en programación.
+Y ya dijimos que podemos utilizar los paquetes alojados en [Pub.dev](https://pub.dev/packages) sin embargo, podemos utilizar otras fuentes también como por ejemplo, si necesitan un paquete que se encuentra en un estado de prueba más avanzado que el publicado estable, pueden depender de un paquete de Git. Git? Ja! Es un buen momento para que sumen a sus horas de estudio y práctica, el [siguiente curso](https://pub.dev/), ya que Git les va a permitir un millón de cosas y es indispensable para el trabajo profesional en programación.
 
 Podrían entonces utilizar un paquete de Git de la siguiente manera:
 
@@ -144,14 +144,7 @@ Y dónde se supone que esos paquetes son almacenados una vez que los descargamos
 
 ## Semantic Versioning
 
-Supongamos que creamos un paquete que depende de una librería llamada
-`super_library` para hacer llamados a un servidor que nos traiga información
-sobre libros publicados en español. Cuando empezamos a utilizarla, vamos a su
-documentación que nos dice cómo utilizarla a través de su _API_ o _Application
-Programmer Interface_ o Interfaz de Programación de Aplicaciones (un conjunto de
-reglas y protocolos que permiten que diferentes aplicaciones se comuniquen entre
-sí). Ya entendimos, la hacemos funcionar en nuestro paquete y todo marcha de mil
-maravillas.
+Supongamos que creamos un paquete que depende de una librería llamada `super_library` para hacer llamados a un servidor que nos traiga información sobre libros publicados en español. Cuando empezamos a utilizarla, vamos a su documentación que nos dice cómo utilizarla a través de su _API_ o _Application Programmer Interface_ o Interfaz de Programación de Aplicaciones (un conjunto de reglas y protocolos que permiten que diferentes aplicaciones se comuniquen entre sí). Ya entendimos, la hacemos funcionar en nuestro paquete y todo marcha de mil maravillas.
 
 Con el tiempo, esa librería que es muy conocida y con la que mucha gente trabaja, se va actualizando y va mejorando. __Cómo le informa al resto de la comunidad qué va sucediendo internamente__ sin tener los usuarios que estar entrando cada vez a la documentación? __Utilizando versiones! Y _Semantic Versioning_ o versionado semántico es un standar en la industria.__
 
