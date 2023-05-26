@@ -491,7 +491,7 @@ void main() {
 
 Perfecto! Ya veo que les está agarr... 🤔 Imagino habrán probado no solamente su código y comparado con el mío sino que también habrán escrito el mío y lo habrán probado no? 💀 Si no lo hicieron, es momento de hacerlo!
 
-Bueno, no pienso entrar en explicaciones matemáticas pero básicamente si ustedes dividen un número por cero, en Dart el resultado esperado no sería `0` sino `Infinity`. Por otro lado, si intentamos dividir `0` por `0`, es un resultado imposible de determinar, lo que Dart aquí representa como `NaN` (_Not a number_; no es un número).
+Bueno, no pienso entrar en explicaciones matemáticas pero podríamos decir que si hay algo que no se puede hacer es dividir por `0`, y en el caso de hacerlo pueden ocurrir dos cosas: obtener indefinido o indeterminado. El primero de ellos es cuando divido un número distinto de `0` por `0`, y en Dart en lugar de darme error (lo que haría cualquier calculadora) me retorna `Infinity` (si quieren saber mas investiguen `limites` en matemática). En el segundo de ellos, si intentamos dividir `0` por `0`, es un resultado imposible de determinar, lo que Dart aquí representa como `NaN` (_Not a number_; no es un número).
 
 Dicho esto, si efectivamente corrieron mis tests, deberían haber fallado 2.
 Estos son los tests fallidos:
