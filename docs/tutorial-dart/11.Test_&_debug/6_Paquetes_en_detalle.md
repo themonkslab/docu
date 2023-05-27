@@ -188,6 +188,6 @@ packages
          calculator.dart
 ```
 
-__💀 Solución__: [aquí](https://pub.dev/s)
+__💀 Solución__: [aquí](https://pub.dev/)
 
 Y para cerrar... vieron que VSCode nos marca un error pero de todas formas podemos ejecutar nuestro programa? Es porque nos quedaron los tests evaluando la función anterior, mal sus `imports` y alguito más. Sería un buen momento para empezar con tests no? 😃
