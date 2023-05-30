@@ -1,8 +1,11 @@
 ---
 sidebar_position: 6
+title: 6. Paquetes en detalle
 ---
 
 # Paquetes en detalle
+
+@Mau Di Bert
 
 Ya tuvimos un breve pantallazo sobre los componentes principales de un proy... paquete! 🤣 Vamos ahora a adentrarnos un poquito más en los _packages_!
 

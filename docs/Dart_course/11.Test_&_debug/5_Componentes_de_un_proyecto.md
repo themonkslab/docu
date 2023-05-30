@@ -1,8 +1,11 @@
 ---
 sidebar_position: 5
+title: 5. Componentes de un proyecto
 ---
 
 # Componentes de un proyecto
+
+@Mau Di Bert
 
 Vamos a basarnos en nuestro flamante `first_dart_project` para poder entender de qué está hecho un proyecto:
 

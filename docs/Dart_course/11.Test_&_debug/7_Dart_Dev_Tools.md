@@ -1,8 +1,11 @@
 ---
 sidebar_position: 7
+title: 7. Dart DevTools
 ---
 
 # Dart DevTools
+
+@Mau Di Bert
 
 Ya hemos explicado el por qué es tan importante incorporar los tests como una práctica cotidiana, sin embargo, es recién ahora que habiendo absorvido una buena base sobre Dart, que pueden entender más su verdadera importancia. Por ello, vamos a repasar un poco empezando por modificar el último paquete en el que trabajamos, el `first_dart_packages_exercise.dart`.
 

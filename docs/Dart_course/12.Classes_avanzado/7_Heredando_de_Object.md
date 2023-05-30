@@ -1,8 +1,11 @@
 ---
 sidebar_position: 7
+title: 7. Heredando de Object
 ---
 
 # Heredando de Object
+
+@Mau Di Bert
 
 Como lo mencionamos cuando hablamos de jerarquías en el capítulo sobre _Null safety_ ([Jerarquías](https://pub.dev/)), __todas las clases creadas y las que creemos, por defecto, son hijas de `Object?`, por lo que vamos a poder hacer uso de sus métodos__, que no son muchos pero son de mucha utilidad.
 

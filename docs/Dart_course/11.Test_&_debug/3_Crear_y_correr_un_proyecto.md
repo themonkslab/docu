@@ -1,8 +1,11 @@
 ---
 sidebar_position: 3
+title: 3. Crear y correr un proyecto
 ---
 
 # Crear y correr un proyecto
+
+@Mau Di Bert
 
 Hasta el momento, nos manejamos casi todo el tiempo con Dartpad salvo en reducidas circunstancias. Ha llegado el tiempo de pegar el salto: vamos a trabajar casi absolutamente con VSCode de ahora en adelante dejando Dartpad para pequeños experimentos.
 

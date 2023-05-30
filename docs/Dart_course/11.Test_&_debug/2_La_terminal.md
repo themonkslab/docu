@@ -1,8 +1,11 @@
 ---
 sidebar_position: 2
+title: 2. La terminal
 ---
 
 # La terminal
+
+@Mau Di Bert
 
 Hemos visto muy superficialmente cómo crear un proyecto desde VSCode. O para ser más honestos, hemos visto cómo crear algunos archivos `.dart` mas no un proyecto.
 

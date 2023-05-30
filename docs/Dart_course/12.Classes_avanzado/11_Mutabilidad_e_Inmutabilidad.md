@@ -1,8 +1,11 @@
 ---
 sidebar_position: 11
+title: 11. Mutabilidad e Inmutabilidad
 ---
 
 # Mutabilidad e Inmutabilidad
+
+@Mau Di Bert
 
 Supongamos que necesitamos una clase dentro de una aplicación de personal que controle los horarios de salida y entrada de los empleados. Podríamos crear esta clase (y las clases necesarias para que esta funcione), de la siguiente manera:
 

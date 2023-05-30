@@ -1,8 +1,11 @@
 ---
 sidebar_position: 10
+title: 10. JSON y Factory Constructors
 ---
 
 # JSON y Factory Constructors
+
+@Mau Di Bert
 
 En el capítulo anterior vimos de qué maneras podemos utilizar este tipo de constructores pero dejamos afuera un caso de uso extremadamente frecuente por lo que nos vamos a tomar todo un artículo para ello! Empecemos!
 

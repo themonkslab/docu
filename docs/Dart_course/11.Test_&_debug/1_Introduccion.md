@@ -1,8 +1,11 @@
 ---
 sidebar_position: 1
+title: 1. Dart y VSCode nivel medio
 ---
 
 # Dart y VSCode nivel medio
+
+@Mau Di Bert
 
 Ya han pasado por una gran cantidad de horas de lectura, ejercitación y aprendizaje. Han aprendido profundamente las primeras bases del lenguaje y ya pueden ir notando que Dartpad les está quedando chico.
 

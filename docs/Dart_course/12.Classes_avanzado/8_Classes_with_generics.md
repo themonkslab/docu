@@ -1,8 +1,11 @@
 ---
 sidebar_position: 8
+title: 8. Classes with generics
 ---
 
 # Classes with generics
+
+@Mau Di Bert
 
 Ya hemos visto los genéricos pero vamos a jugar un poquito más aplicándolos a clases. Empezaremos creando un nuevo paquete llamado `generic_classes`.
 

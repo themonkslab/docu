@@ -1,8 +1,11 @@
 ---
 sidebar_position: 13
+title: 13. Extensions
 ---
 
 # Extensions
+
+@Mau Di Bert
 
 Supongamos que tenemos un texto y nos gustaría volver mayúsculas solamente la primer letra de cada palabra. Qué podríamos hacer? Lo primero, claramente, sería crear un test para ello. 💀 Vayan que yo los espero en el próximo párrafo:
 

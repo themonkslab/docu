@@ -1,8 +1,11 @@
 ---
 sidebar_position: 1
+title: 1. Classes nivel avanzado
 ---
 
 # Classes nivel avanzado
+
+@Mau Di Bert
 
 Cada sección que pasa, se va poniendo más interesante pero también puede ser que por momentos, se nos ponga complicado. No duden en volver a leer, experimentar y preguntar en nuestro Discord. Estamos para aprender y disfrutar haciéndolo y recuerden que la pregunta tonta, es la que no se hace!
 

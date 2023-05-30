@@ -1,8 +1,11 @@
 ---
 sidebar_position: 8
+title: 8. Dart tests, introducción
 ---
 
 # Dart tests, introducción
+
+@Mau Di Bert
 
 Ahora que ya tienen una muy buena base para entender cómo esto va funcionando, abramos el paquete `calculator` que creamos (ya no dije proyecto! 🥳) y vamos a pensar un poquito en él y hacernos algunas preguntas:
 

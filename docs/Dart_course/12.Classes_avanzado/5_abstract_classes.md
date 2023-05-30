@@ -1,8 +1,11 @@
 ---
 sidebar_position: 5
+title: 5. Abstract classes
 ---
 
 # Abstract classes
+
+@Mau Di Bert
 
 Vamos a crear un nuevo proyecto llamado `company_example` y vamos a borrar el contenido como ya lo hemos hecho en oportunidades anteriores.
 

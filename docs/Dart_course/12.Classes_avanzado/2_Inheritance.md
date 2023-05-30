@@ -1,8 +1,11 @@
 ---
 sidebar_position: 2
+title: 2. Inheritance o Herencia
 ---
 
 # Inheritance o Herencia
+
+@Mau Di Bert
 
 Vamos a utilizar el último ejemplo y partir de allí. Copien el paquete/carpeta `classes_advanced`; vamos a trabjar con él.
 

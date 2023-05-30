@@ -1,8 +1,11 @@
 ---
 sidebar_position: 4
+title: 4. Override
 ---
 
 # Override
+
+@Mau Di Bert
 
 Continuando con el código anterior, voy a instanciar dos clases y llamar a `eat` en cada una de ellas. El código que utilizo es el siguiente y luego les dejo el _output_ que se puede ver al correrlo:
 

@@ -1,8 +1,11 @@
 ---
 sidebar_position: 4
+title: 4. Debuggear un proyecto
 ---
 
 # Debuggear un proyecto
+
+@Mau Di Bert
 
 _Debug_ significa depurar y al correr nuestro programa en modo de depuración, podemos __ir ejecutando nuestro programa paso a paso__, ver qué valor ocupa cada variable, cuál es el recorrido que va haciendo y varias cosas más. De esta manera podemos cerciorarnos de que todo se ejecuta de la forma esperada por nosotros y si no lo hace, nos sirve para encontrar su por qué.
 

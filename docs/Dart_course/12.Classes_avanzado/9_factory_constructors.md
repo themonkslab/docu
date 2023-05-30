@@ -1,8 +1,11 @@
 ---
 sidebar_position: 9
+title: 9. Factory constructors
 ---
 
 # Factory constructors
+
+@Mau Di Bert
 
 En el capítulo previo, hablamos de hacer un _request_ a un servidor verdad? Imaginemos entonces que tenemos una aplicación que va a realizar varios de estos _request_ a una misma _API_.
 

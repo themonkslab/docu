@@ -1,8 +1,11 @@
 ---
 sidebar_position: 6
+title: 6. Extends and implements
 ---
 
 # Extends and implements
+
+@Mau Di Bert
 
 Dupliquen el ejercicio anterior y póngale el nombre `implement_extends`. Renombren todo y no se olviden de correr el `dart pub get`.
 

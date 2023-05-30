@@ -1,8 +1,11 @@
 ---
 sidebar_position: 12
+title: 12. Mixins
 ---
 
 # Mixins
+
+@Mau Di Bert
 
 Quiero que vayan al paquete que habíamos creado llamado `abstract_classes_exercise`.
 

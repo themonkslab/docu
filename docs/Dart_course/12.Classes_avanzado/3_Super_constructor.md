@@ -1,8 +1,11 @@
 ---
 sidebar_position: 3
+title: 3. Super constructor
 ---
 
 # Super constructor
+
+@Mau Di Bert
 
 Lamento decirles que hasta el momento estuvimos aplicando poco rigor científico a lo que fuimos realizando: cómo puede ser que tengamos animales, perros, gatos y hasta super perros, sin que posean un nombre científico!? 😝
 
