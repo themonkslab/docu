@@ -13,7 +13,7 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <p className="hero__description">¿Qué tan seguro te sentirías si tuvieras toda la información y orientación para convertirte en un profesional de la industria en un solo lugar?</p>
+        <p className="hero__description">¿Qué tan seguro te sentirías si tuvieras todo para convertirte en un profesional de la industria en un solo lugar?</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"

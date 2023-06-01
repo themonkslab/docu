@@ -5,13 +5,15 @@
 
 /* Center this class */
 
+
+
 .heroWrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100vw;
   height: 100vh;
-  background-color: black;
+
 }
 
 .heroBanner {
@@ -19,8 +21,9 @@
   text-align: center;
   overflow: hidden;
   height: 100vh;
-  background-color: black;
-  width: 60vw;
+  width: 50vw;
+  background-color: #1b1b1d;
+
 }
 
 
@@ -31,7 +34,6 @@
   }
 
   .heroBanner {
-    
     width: 100vw;
   }
 }
