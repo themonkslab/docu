@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'CODEWARTS',
-  tagline: 'Entrenarse en el oficio de la programación',
+  tagline: 'Para entrenarnos en el oficio de la programación',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
