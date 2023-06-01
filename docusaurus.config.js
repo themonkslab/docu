@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'The Monkslab',
-  tagline: 'Aprendamos a programar juntos',
+  title: 'Codewarts!',
+  tagline: 'Entrenarse en el oficio de la programación',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -101,7 +101,7 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/G75TPZYr',
               },
               {
                 label: 'Twitter',

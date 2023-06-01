@@ -4,12 +4,20 @@
  * work well for content-centric websites.
  */
 
+
+@import 'typeface-montserrat';
+@import 'typeface-libre-caslon-text';
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary: #ff8c00;
+  --ifm-color-primary-dark: #ff8c00;
+  --ifm-color-primary-darker: #ff8c00;
+  --ifm-color-primary-darkest: #ff8c00;
   --ifm-color-primary-light: #33925d;
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
@@ -27,4 +35,39 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+
+.hero__title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.hero__subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #FFF170;
+}
+
+.hero__description {
+  font-family: 'Libre Caslon Text', serif;
+  font-size: 1.2rem;
+}
+
+
+.customLayout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+}
+
+@media screen and (max-width: 996px) {
+  .hero__title {
+    font-size: 2.5rem;
+  }
 }
